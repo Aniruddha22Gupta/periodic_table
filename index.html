@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table - Full Feature Suite</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Interactive Periodic Table</h1>
+    <div class="subtitle">Visualizing Your Strengths, Spotting Your Weaknesses</div>
+    
+    <div class="main-layout">
+        <div class="table-container">
+            <div class="periodic-table" id="table"></div>
+        </div>
+
+        <div class="sidebar-panel">
+            <div class="sidebar-title">Controls</div>
+            <button class="check-btn" onclick="checkAnswers()">⚙️ Check Answers</button>
+            <button class="info-btn" onclick="showFeaturesAlert()">💡 View Manual</button>
+            <button class="clear-board-btn" onclick="clearCurrentBoard()">🧹 Clear Board</button>
+            <button class="clear-memory-btn" onclick="resetAllMemory()">⚠️ Wipe History</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
